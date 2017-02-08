@@ -9,17 +9,17 @@ test_initialization: false
 type: "SGD"
 base_lr: 0.0002
 momentum: 0.9
-weight_decay: 0.0005
+weight_decay: 0.000001
 # The learning rate policy
 lr_policy: "multistep"
 gamma: 0.5
-stepvalue: 8000
-stepvalue: 9600
-stepvalue: 11200
+stepvalue: 674735
+stepvalue: 809682
+stepvalue: 944629
 # Display every 100 iterations
 display: 100
 # The maximum number of iterations
-max_iter: 12800
+max_iter: 1079575
 # snapshot intermediate results
 snapshot: 1600
 snapshot_prefix: "snapshop"
